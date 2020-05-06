@@ -1,0 +1,147 @@
+html{
+    font-size: 24px;
+    font-family:"reboto","adobe-clean", "微軟正黑體", "Microsoft JhengHei", "Segoe UI Semibold", "Segoe UI", "Lucida Grande", Verdana, Arial, Helvetica;
+}
+body{
+    line-height: 1.5em;
+}
+.container{
+    max-width:920px;
+    margin: 0 auto;
+    padding:115px 0 50px 0;
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 3.8rem;
+    white-space: space 8px;
+    margin-bottom: 20px;
+}
+hr{
+    border-color: black;
+    padding: 5px 0;
+    border-width: 0.5px 0 0 0;
+}
+hr.hrborder{
+    border-width: 2px 0 0 0;
+    margin-bottom: 0px;
+}
+.personPhoto{
+    margin: 50px 0;
+}
+.title{
+    font-size: 1.3rem;
+    font-weight:500;
+}
+.titleE{
+    color:#A00404;
+    font-size: 80%;
+    vertical-align: text-top;
+}
+ul.item_list{
+    margin-bottom: 50px;
+}
+ul.item_list li:before{
+    display: inline-block;
+    content:"";
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #96A9C4;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.profile ul.item_list li:nth-child(2):before{
+    display: none;
+}
+ul.item_list li{
+    padding-left: 40px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.skills,footer{
+    background-color: #415165;
+    color: white;
+    padding: 25px 0;
+}
+.skills{
+    position: relative;
+    margin-bottom: 55px;
+}
+.skills .titleE{
+    color:white;
+}
+.skills hr{
+    width:80%;
+}
+.skills p,.skills ul{
+    margin: 0 auto;
+    width:178px;
+}
+.skills ul{
+    font-size: 85%;
+    position: relative;
+    /* border-left: 1px solid white; */
+}
+.skills ul:after{
+    display: block;
+    content:"";
+    width:1px;
+    height: 94%;
+    background-color: white;
+    position: absolute;
+    top: 3%;
+    left: -18px;
+}
+.skills:before{
+    display: inline-block;
+    content:"";
+    width:120vw;
+    height: 70%;
+    background-color: #96A9C4;
+    position: absolute;
+    z-index: -1;
+    top: 15%;
+    transform: translateX(-25%);
+}
+.skills>hr,footer>hr{
+    border-color: white;
+}
+.education ul{
+    position: relative;
+}
+.education ul:before{
+    display: inline-block;
+    content:"";
+    width:2px;
+    height: 50px;
+    background-color: #96A9C4;
+    position: absolute;
+    left: 16px;
+    top: 15px;
+}
+.work li{
+    margin-bottom: 20px;
+}
+.work li span{
+    font-size: 85%;
+}
+footer{
+    text-align: center;
+}
+footer hr{
+    max-width: 920px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    line-height: 2em;
+    font-size: 85%;
+    margin-bottom: 25px;
+}
+footer a img{
+    transform: scale(0.8);
+}
